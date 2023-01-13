@@ -1,19 +1,5 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
+.App-body {
+  padding: 50px 0;
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -24,15 +10,90 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.container{
+  height: 900px;
+  width: 590px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: column;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header{
+  background-color: teal;
+  height: 80px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
 }
+
+.destination-wrapper{
+  height: 200px;
+  margin: 20px 30px;
+  display: flex;
+  column-gap: 30px;
+}
+
+.image-wrapper{
+  background-color: grey;
+  width: 160px;
+  border-radius: 10px;
+  height: 200px;
+  object-fit:cover;
+  object-position: center;
+}
+
+.destination-img{
+  width: 160px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.location-icon{
+  width: 11px;
+  margin-right: 3px;
+}
+.location{
+  margin: 0px;
+  color: black;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.google-map-link{
+  text-decoration:underline;
+  color: grey;
+  margin-left: 16px;
+  font-weight: lighter;
+}
+
+.destination-title{
+  color: lightseagreen;
+  margin: 0px;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.date{
+  color: black;
+  margin: 0;
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: 17px;
+}
+
+.description{
+  color: black;
+  font-size: 11px;
+}
+
+.project-name{
+  font-size: 20px;
+  margin-left: 10px;
+}
+
